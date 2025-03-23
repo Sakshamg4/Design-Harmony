@@ -5,15 +5,14 @@ import Video from './components/Video'
 
 const App = () => {
   return (
-
     <>
-    <div className='w-full h-auto bg-[#1b0755]'>
+      <div className='w-full h-auto bg-[#2b1810]'> {/* Changed to darker brown */}
         <div className='w-full h-full bg-[url("./assets/hero.png")] bg-cover bg-center bg-no-repeat'>
-            <Header />
-            <Hero />
-            <Video />
+          <Header />
+          <Hero />
+          <Video />
         </div>
-    </div>
+      </div>
     </>
   )
 }
