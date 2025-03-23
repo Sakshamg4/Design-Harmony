@@ -8,7 +8,7 @@ const Header = () => {
       <div className='header-container flex flex-col md:flex-row items-center justify-between px-4 md:px-9 py-4 md:py-6'>
         <div className='header-logo flex items-center'>
           <h1 className='text-white text-xl md:text-2xl font-bold tracking-wider cursor-pointer hover:text-orange-400 transition-colors whitespace-nowrap'>
-            Design harmony.
+            Design Harmony
           </h1>
         </div>
 
