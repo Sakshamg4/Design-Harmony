@@ -32,7 +32,7 @@ const Marquee = () => {
             key={index}
             src={img}
             alt={`client-${index + 1}`}
-            className='h-12 w-auto object-contain mx-12 opacity-100 brightness-200 hover:brightness-150 transition-all duration-300'
+            className='h-10 w-auto object-contain mx-12 opacity-100 brightness-200 hover:brightness-150 transition-all duration-300'
           />
         ))}
       </FastMarquee>
@@ -49,7 +49,7 @@ const Marquee = () => {
             key={index}
             src={img}
             alt={`client-${index + 7}`}
-            className='h-12 w-auto object-contain mx-12 opacity-100 brightness-200 hover:brightness-150 transition-all duration-300'
+            className='h-10 w-auto object-contain mx-12 opacity-100 brightness-200 hover:brightness-150 transition-all duration-300'
           />
         ))}
       </FastMarquee>
