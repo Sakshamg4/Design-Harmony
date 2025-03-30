@@ -30,7 +30,7 @@ const Header = () => {
           {/* Navigation Menu */}
           <div className={`header-menu w-full md:w-auto ${isMenuOpen ? 'block' : 'hidden'} md:block mt-4 md:mt-0`}>
             <ul className='flex flex-col md:flex-row items-center gap-6 md:gap-8 cursor-pointer font-semibold text-white text-sm md:text-base'>
-              {['User Cases', 'AI Design', 'Templates', 'Resources', 'Pricing','Video Editing', 'Why Visily?'].map((item, index) => (
+              {['User Cases', 'AI Design', 'Templates', 'Resources', 'Pricing','Video Editing'].map((item, index) => (
                 <li key={index} className={`${index === 6 ? 'text-orange-500' : ''} py-2.5 md:py-0 hover:text-orange-400 transition-colors whitespace-nowrap`}>{item}</li>
               ))}
             </ul>   

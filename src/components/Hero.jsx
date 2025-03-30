@@ -13,12 +13,12 @@ const Hero = () => {
                     </p>
                     <div className='hero-buttons mt-2 md:mt-4'>
                         <button className='bg-white text-blue-600 font-bold text-sm md:text-base px-6 py-2.5 md:px-8 md:py-3 rounded-md cursor-pointer hover:bg-gray-100 transition-colors'>
-                            Get Visily free
+                            Get Started 
                         </button>
                     </div>
                 </div>
             </div>
-        </div>
+        </div>  
     )   
 }
 
