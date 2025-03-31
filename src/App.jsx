@@ -4,7 +4,7 @@ import Header from './components/Header'
 import Hero from './components/Hero'
 import Video from './components/Video'
 import Marquee from './components/Marquee'
-
+import VideoSection from './components/VideoSection'
 const App = () => {
 
   const lenis = useLenis(({ scroll }) => {
@@ -21,6 +21,7 @@ const App = () => {
               <Hero />
               <Video />
               <Marquee />
+              <VideoSection />
             </div>
           </div>
         </div>
