@@ -35,19 +35,19 @@ const VideoSection = () => {
     <div className="bg-gradient-to-b from-[#0f172a] to-[#1e293b] py-8 sm:py-12 md:py-16 lg:py-24 px-4 sm:px-6 md:px-8 lg:px-20">
       <div className="max-w-7xl mx-auto flex flex-col lg:flex-row items-start lg:items-center justify-between gap-8 lg:gap-12">
         {/* Left Content */}
-        <div className="w-full lg:w-1/2 space-y-4 md:space-y-6">
-          <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-white leading-tight">
-            Lightning fast screen recording
-          </h2>
-          <p className="text-zinc-200 text-sm sm:text-base md:text-lg max-w-xl">
-            Easily record your screen and camera. Record on any device using Loom's Chrome extension, desktop app or mobile app.
-          </p>
-          <button className="bg-blue-600 text-white font-semibold px-4 sm:px-6 py-2.5 sm:py-3 text-sm sm:text-base rounded-md hover:bg-blue-700 transition-colors">
-            Download now
-          </button>
-        </div>
+          <div className="w-full lg:w-1/2 space-y-4 md:space-y-6">
+            <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-white leading-tight">
+              Design Harmony with AI
+            </h2>
+            <p className="text-zinc-200 text-sm sm:text-base md:text-lg max-w-xl">
+              Experience seamless design collaboration powered by AI. Our design workflows smarter and more efficient than ever before.
+            </p>
+            <button className="bg-blue-600 text-white font-semibold px-4 sm:px-6 py-2.5 sm:py-3 text-sm sm:text-base rounded-md hover:bg-blue-700 transition-colors">
+              Read More
+            </button>
+          </div>
 
-        {/* Right Content - Schedule Timeline */}
+          {/* Right Content - Schedule Timeline */}
         <div className="w-full lg:w-1/2 mt-8 lg:mt-0">
           <div className="bg-[#2B1C50] rounded-xl sm:rounded-2xl p-4 sm:p-6 shadow-xl relative min-h-[400px] sm:min-h-[470px] overflow-hidden">
             {/* Time indicators */}

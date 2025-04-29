@@ -7,11 +7,10 @@ import Marquee from './components/Marquee'
 import VideoSection from './components/VideoSection'
 import VideoSection2 from './components/VideoSection2'
 import VideoSection3 from './components/Videosection3'
-import Features from './components/Features'
-import Testimonials from './components/Testimonials'
-import Pricing from './components/Pricing'
-import Contact from './components/Contact'
-
+import VideoSection4 from './components/VideoSection4'
+import KeepContentSafe from './components/KeepContentSafe'
+import VideoCards from './components/VideoCards'
+import AboutSection from './components/AboutSection'
 const App = () => {
 
   const lenis = useLenis(({ scroll }) => {
@@ -33,8 +32,10 @@ const App = () => {
               <VideoSection2 />
               <Testimonials />
               <VideoSection3 />
-              <Pricing />
-              <Contact />
+              <VideoSection4 />
+              <KeepContentSafe />
+              <VideoCards />
+              <AboutSection />
             </div>
           </div>
         </div>

@@ -23,7 +23,7 @@ const VideoSection3 = () => {
                 <p className='text-white text-lg mb-4'>
                   Of course! Here's a short walkthrough of the steps you'll need to take:
                 </p>
-                <p className='text-violet-300 text-lg'>loom.com/share/28u2o923</p>
+                
                 
                 {/* Video Preview */}
                 <div className='mt-4 rounded-lg overflow-hidden relative bg-violet-800/50 aspect-video'>
@@ -46,7 +46,7 @@ const VideoSection3 = () => {
               Share or embed video anywhere you work
             </h2>
             <p className='text-gray-300 text-base md:text-lg leading-relaxed'>
-              From Google Workspace to Slack, Loom videos seamlessly integrate with hundreds of tools you use every day.
+              From Google Workspace to Slack, design harmony videos seamlessly integrate with hundreds of tools you use every day.
             </p>
             <button className='bg-blue-600 text-white px-8 py-3 rounded-md font-semibold hover:bg-blue-700 transition-colors'>
               Start sharing
