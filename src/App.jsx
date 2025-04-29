@@ -11,6 +11,11 @@ import VideoSection4 from './components/VideoSection4'
 import KeepContentSafe from './components/KeepContentSafe'
 import VideoCards from './components/VideoCards'
 import AboutSection from './components/AboutSection'
+import Footer from './components/Footer'
+import Features from './components/Features'
+import Testimonials from './components/Testimonials'
+import DesignOptions from './components/DesignOptions'
+
 const App = () => {
 
   const lenis = useLenis(({ scroll }) => {
@@ -30,12 +35,14 @@ const App = () => {
               <VideoSection />
               <Features />
               <VideoSection2 />
+              <DesignOptions />
               <Testimonials />
               <VideoSection3 />
               <VideoSection4 />
               <KeepContentSafe />
               <VideoCards />
               <AboutSection />
+              <Footer />
             </div>
           </div>
         </div>
