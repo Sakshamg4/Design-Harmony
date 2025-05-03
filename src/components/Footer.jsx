@@ -6,7 +6,6 @@ const Footer = () => {
       title: "PRODUCT",
       items: [
         "Pricing",
-        "loomSDK",
         "Screen Recorder",
         "Screenshot",
         "Chrome Screen Recorder",
@@ -34,9 +33,7 @@ const Footer = () => {
     {
       title: "FOR BUSINESS",
       items: [
-        "Loom AI",
         "Enterprise",
-        "Loom HQ",
         "Customer Stories",
         "Security",
         "Video Hosting",
@@ -54,7 +51,6 @@ const Footer = () => {
     {
       title: "RESOURCES",
       items: [
-        "The Replay | Loom's Blog",
         "Help Center",
         "Community",
         "eBooks",
